@@ -1,0 +1,136 @@
+body {
+    background: url(imagens/fundofoda.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: norepeat;
+    height: 90vh;
+    margin:0;
+}
+h1 {
+    color: white;
+    background-color: transparent;
+    text-align: center;
+}
+h2 {
+    color: white;
+}
+button {
+    margin: 2px;
+}
+.image-container {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+img {
+    width: 150px;
+    height: 200px;
+}
+.description {
+    color: white;
+}
+
+body, ul,li,p {
+margin: 0px;
+padding: 0px;
+list-style: none;
+font-size: 1.2rem;
+font-family: Arial;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+.header{
+background: transparent;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+
+.menu {
+display: flex;
+
+}
+
+.menu li {
+margin-left: 10px;
+}
+
+.menu li {
+display: block;
+padding: 10px;
+
+}
+
+nav{
+background-color:transparent;
+overflow: hidden;
+
+}
+
+nav ul{
+   margin:0;
+   padding: 0;
+   text-align: center;
+   list-style-type:none;
+}
+
+nav ul li{
+    display: inline-block;
+   
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
+
+nav ul li a:hover{
+    background-color: crimson;
+    color: black;
+
+}
+
+section{
+    display:flex ;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+article{
+    background-color: rgb(8, 255, 173);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.continue{
+    text-align: left;
+}
+
+.movie-item {
+    min-width: 150px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.movie-item img {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.1s ease;
+}
